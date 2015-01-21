@@ -1,0 +1,12 @@
+section {
+	border-radius: 10px;
+	border: 1px solid black;
+}
+
+.top-buffer{
+	margin-top: 4em;
+}
+
+#welcome {
+	border: none;
+}
