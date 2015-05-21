@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>philValenti.com</title>
+    <title>PhilValenti.com</title>
 
     <!-- Bootstrap -->
       <!-- Latest compiled and minified CSS -->
@@ -25,6 +25,7 @@
 	  
 	  <!-- Personal Stylesheet -->
 	  <link rel="stylesheet" type="text/css" href="style.css">
+	  
   </head>
 	
   <body>
@@ -49,94 +50,175 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#">About</a></li>
-							<li><a href="#">Portfolio</a></li>
-							<li><a href="#">Contact</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#hobbies">Hobbies</a></li>
+							<li><a href="#contact">Contact</a></li>
 					  	</ul>
 					</div><!-- /.navbar-collapse -->
 				  </div><!-- /.container-fluid -->
 				</nav>
 
 		  </header>
-
-		  <div class="container">
-			  <section id="welcome" class="container-fluid">
-				  <div class="row">
-				  	<div class="col-md-12"><h1>Welcome!</h1></div>
+		  
+		  <section class="jumbotron" id="welcome">
+			  <div class="row">
+				  <div class="col-md-12">
+					  <h1>Welcome</h1>
 				  </div>
-			  </section>
-
-			  <section id="about" class="container-fluid top-buffer">
-				  <div class="row">
-				  	<div class="col-md-12 text-right">
-					  <h1>About</h1>
-				  	</div>
+			  </div>
+			  <div class="row">
+				  <div class="col-md-12">
+					  <p class="lead">Creating media to build communication.</p>
 				  </div>
-				  <div class="row">
-				  	<div class="col-md-6">
-						<img src="" class="responsive" alt="About IMG">
-				  	</div>
-				  	<div class="col-md-6">
-						<p>In 2011 I graduated from Michigan State University with a degree in Media Arts Interactive Media. My focus had been on 3D animation and compositing footage, using the software Autodesk Maya, Pixologic Zbrush, and Adobe After Effects. As I found after graduating I realized I needed to cultivate an online presence, so I took classes at Oakland Community College to learn how to build websites. Upon completing these courses I realized I had enjoyed the process of designing, building, and presenting websites. Taking something that was just an idea and developing it into an interactive experience. In 2014 I took another course in Building Dynamic Websites through Grand Circus, a trainning institute in Detroit, Michigan.</p>
-				  	</div>
+			  </div>
+		  </section>
+		  
+		  <section class="container-fluid top-buffer" id="about">
+			  <div class="row">
+				  <div class="col-md-12">
+					  <h3>About</h3>
 				  </div>
-			  </section>
+			  </div>
 			  
-			  <section id="portfolio" class="container-fluid top-buffer">
-				  <div class="row">
-					  <div class="col-md-12"><h1>Portfolio</h1></div>
+			  <div class="row">
+				  <div class="col-md-6">
+					  <img src="" class="responsive" alt="About IMG">
 				  </div>
-				  <div class="row">
-					  <div class="col-md-6">
-					  	<ul class="list-unstyled">
-						   <a href="http://phillipvalenti.github.io/divesNdines"><li>Dines N' Dives</li></a>
-							  <ul class="list-unstyled">
-								 <li>This is a food blog built with Pure. It features responsive design, google fonts, and jQuery plugins.</li>
-								 <li>http://phillipvalenti.github.io/divesNdines</li>
-							  </ul>
-						   <a href="http://phillipvalenti.github.io/webDevelopment"><li>What is Web Development?</li></a>
-							  <ul class="list-unstyled">
-								 <li>This is a website built strictly using HTML, HTML5, CSS, CSS3, and suedo classes. It is a website devoted to fundamentals of web development.</li>
-								 <li>http://phillipvalenti.github.io/webDevelopment</li>
-							  </ul>
-							</ul>
-				  		</div>
-					    <div class="col-md-6">
-							<img src="" class="responsive" alt="Programming IMG">
-					    </div>
-				  	</div>
-			  </section>
+				  <div class="col-md-6">
+					  <p>In 2011 I graduated from Michigan State University with a degree in Media Arts Interactive Media. My focus had been on 3D animation and compositing footage, using the software Autodesk Maya, Pixologic Zbrush, and Adobe After Effects. As I found after graduating I realized I needed to cultivate an online presence, so I took classes at Oakland Community College to learn how to build websites. Upon completing these courses I realized I had enjoyed the process of designing, building, and presenting websites. Taking something that was just an idea and developing it into an interactive experience is facinating to me. Then in 2014 I studied responsive design at Grand Circus, a trainning institute in Detroit, Michigan. My long term goal is to develop and grow my skills into this field so I can cultivate unique experiences.</p>
+				  </div>
+			  </div>
+		  </section>
+		  
+		  <section class="container-fluid top-buffer" id="portfolio">
+			  
+			  <div class="row">
+				  <div class="col-md-12">
+					  <h3>Portfolio</h3>
+				  </div>
+			  </div>
+			  
+			  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				  
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+					  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				  </ol>
+				  
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner" role="listbox">
+					  <div class="item active">
+						  <img src="content/WebDevelopment.png" alt="Web Development Pic">
+						  <div class="carousel-caption">
+						  </div>
+					  </div>
+					  <div class="item">
+						  <img src="content/DinesNDives.png" alt="Dives N' Dines Pic">
+						  <div class="carousel-caption">
+						  </div>
+					  </div>
 
-			  <section id="Contact" class="container-fluid top-buffer">
+				  </div>
+				  
+				  <!-- Controls -->
+				  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					  <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					  <span class="sr-only">Next</span>
+				  </a>
+				  
 				  <div class="row">
-					  <div class="col-md-12 text-right"><h1>Contact</h1></div>
-				  </div>
-				  <div class="row text-center">
-					  <div class="col-xs-4">
-						  <a><i class="fa fa-linkedin fa-4x"></i></a>
+					  <div class="col-sm-6">
+						  <h3><a href="http://phillipvalenti.github.io/webDevelopment">What is Web Development?</a></h3>
+						  <p>This is a website built strictly using HTML, HTML5, CSS, CSS3, and suedo classes. It is a website devoted to fundamentals of web development.</p>
 					  </div>
-					  <div class="col-xs-4">
-						  <a><i class="fa fa-github fa-4x"></i></a>
-					  </div>
-					  <div class="col-xs-4">
-						  <a href="mailto:phillipvalenti@gmail.com?subject=Greetings"><i class="fa fa-envelope fa-4x"></i></a>
+					  <div class="col-sm-6">
+						  <h3><a href="http://phillipvalenti.github.io/divesNdines">Dines N' Dives</a></h3>
+						  <p>This is a food blog built with Pure. It features responsive design, google fonts, and jQuery plugins.</p>
 					  </div>
 				  </div>
-			  </section>
-
-			  <div class="container top-buffer">
-			  	<footer class="row">
-				  	<h7>Phil Valenti &copy 2014</h7>
+				  
+			  </div>
+			  
+		  </section>
+		  
+		  <section class="container-fluid top-buffer" id="hobbies">
+			  <div class="row">
+				  <div class="col-md-12"><h3>Hobbies</h3></div>
+			  </div>
+			  <div class="row text-center">
+				  <div class="col-sm-6">
+					  <a><i class="fa fa-youtube fa-5x"></i><h5>Bass Channel</h5></a>
+					  <p>I am an avid bass guitar player and I'm creating a youtube channel so feature myself! More to come soon...</p>
+				  </div>
+				  <div class="col-sm-6">
+					  <a href="https://vimeo.com/phillipvalenti"><i class="fa fa-vimeo-square fa-5x"></i><h5>Animation</h5></a>
+					  <p>Here you can find some test animations, special effects composites, and my animation demo reel. Enjoy!</p>
+				  </div>
+			  </div>
+		  </section>
+		  
+		  <section class="container-fluid top-buffer" id="contact">
+			  <div class="row">
+				  <div class="col-md-12"><h3>Contact</h3></div>
+			  </div>
+			  <div class="row text-center">
+				  <div class="col-xs-4">
+					  <a href="https://www.linkedin.com/pub/phillip-valenti/30/140/6a9"><i class="fa fa-linkedin fa-5x"></i><h5>Linked In</h5></a>
+				  </div>
+				  <div class="col-xs-4">
+					  <a href="https://github.com/phillipvalenti"><i class="fa fa-github fa-5x"></i><h5>Github</h5></a>
+				  </div>
+				  <div class="col-xs-4">
+					  <!-- Button trigger modal -->
+					  <a data-toggle="modal" data-target="#myModal"><i class="fa fa-envelope fa-5x"></i><h5>Email</h5></a>
+					  <!-- Modal -->
+					  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+							  <div class="modal-content">
+								  <div class="modal-header">
+									  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									  <h4 class="modal-title" id="myModalLabel">Email Me Directly</h4>
+								  </div>
+								  <div class="modal-body">
+									  <textarea class="form-control" rows="3"></textarea>
+								  </div>
+								  <div class="modal-footer">
+									  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									  <button type="button" class="btn btn-primary">Send</button>
+								  </div>
+							  </div>
+						  </div>
+					  </div>
+				  </div>
+			  </div>
+		  </section>
+		  
+		  <div class="container-fluid top-buffer">
+			  	<footer class="row container-fluid">
+					
+				  	<h7>Phil Valenti 2015</h7>
 				  
 				  	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 				  	<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+					<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 				  	<!-- Include all compiled plugins (below), or include individual files as needed -->
 				  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+					
+					<!--Backstretch Plugin -->
+					<script type="text/javascript" src="backstretch/jquery.backstretch.min.js"></script>
+					
+					<!--Personal Script File -->
+					<script type="text/javascript" src="script.js"></script>
+					
 			  	</footer>
-			  </div>
-	  		</div>
-		  
+		  </div>		  
 	  </div>
     
   </body>

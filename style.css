@@ -1,13 +1,54 @@
-section {
-	border-radius: 10px;
-	border: 1px solid black;
+body {
+	background-color: lightgrey;
 }
 
 .top-buffer{
-	margin-top: 4em;
+	margin-top: 2em;
 }
 
 #welcome {
 	border: none;
-	margin-top: 24em;
+	padding-top: 24em;
+	border-radius: 2em;
+	<!--background-image: url(content/jumbotron.png);-->
+}
+
+#welcome row {
+	
+}
+
+li {
+	display: inline;
+}
+
+#about {
+	border-bottom: 1px solid rgb(190, 187, 175);
+	background-color: white;
+	border-radius: 1em;
+}
+
+#about img {
+	text-align: center;
+}
+
+#portfolio {
+	border-bottom: 1px solid rgb(190, 187, 175);
+	background-color: white;
+	border-radius: 1em;
+}
+
+#portfolio p {
+	
+}
+
+#hobbies {
+	border-bottom: 1px solid rgb(190, 187, 175);
+	background-color: white;
+	border-radius: 1em;
+}
+
+#contact {
+	border-bottom: 1px solid rgb(190, 187, 175);
+	background-color: white;
+	border-radius: 1em;
 }
