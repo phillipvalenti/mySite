@@ -1,3 +1,8 @@
 $(document).ready(function(){
-	$(".jumbotron").backstretch("content/jumbotron.png");
+	$('.website_carosel').slick({
+    dots:true,
+		arrows:false,
+		fade:true,
+		autoplay:true
+  });
 });

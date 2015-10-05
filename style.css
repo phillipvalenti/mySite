@@ -1,5 +1,48 @@
 body {
-	background-color: lightgrey;
+	background-image: url(content/small_steps.png);
+}
+
+a {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+	color: #808389;
+}
+
+h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+	color: #42403C;
+}
+
+h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+	color: #42403C;
+}
+
+h4 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+	color: #42403C;
+}
+
+h7 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+	color: #42403C;
+}
+
+li {
+	display: inline;
+}
+
+p {
+	font-family: 'Merriweather', serif;
+	color: #42403C;
+}
+
+nav div{
+	background-color: #F3F2EF;
 }
 
 .top-buffer{
@@ -8,48 +51,40 @@ body {
 
 #welcome {
 	border: none;
-	padding-top: 24em;
+	padding-top: 12em;
 	border-radius: 2em;
-	<!--background-image: url(content/jumbotron.png);-->
-}
-
-#welcome row {
-	
-}
-
-li {
-	display: inline;
+	background-color:#F3F2EF;
 }
 
 #about {
 	border-bottom: 1px solid rgb(190, 187, 175);
-	background-color: white;
+	background-color: #F3F2EF;
 	border-radius: 1em;
 }
 
+#about p { 
+	font-size: 1.25em;
+}
+
 #pic_space {
-	margin-bottom: 1em;
+	margin-bottom: 2em;
 
 }
 
 #portfolio {
 	border-bottom: 1px solid rgb(190, 187, 175);
-	background-color: white;
+	background-color: #F3F2EF;
 	border-radius: 1em;
-}
-
-#portfolio p {
-	
 }
 
 #hobbies {
 	border-bottom: 1px solid rgb(190, 187, 175);
-	background-color: white;
+	background-color: #F3F2EF;
 	border-radius: 1em;
 }
 
 #contact {
 	border-bottom: 1px solid rgb(190, 187, 175);
-	background-color: white;
+	background-color: #F3F2EF;
 	border-radius: 1em;
 }
